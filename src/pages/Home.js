@@ -9,10 +9,10 @@ function Home(){
     <div>
       <Link to="/beers">
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={imgBeers} />
+          <Card.Img variant="top" src={imgBeers} className="img-opt-home"/>
           <Card.Body>
-            <Card.Title>All Beers</Card.Title>
-            <Card.Text>
+            <Card.Title className="tit-card-home">All Beers</Card.Title>
+            <Card.Text className="text-card-home">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
@@ -21,10 +21,10 @@ function Home(){
       </Link>
       <Link to="/random-beer">
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={imgRandomBeer}/>
+          <Card.Img variant="top" src={imgRandomBeer} className="img-opt-home"/>
           <Card.Body>
-            <Card.Title>Random Beer</Card.Title>
-            <Card.Text>
+            <Card.Title className="tit-card-home">Random Beer</Card.Title>
+            <Card.Text className="text-card-home">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
@@ -33,10 +33,10 @@ function Home(){
       </Link>
       <Link to="/new-beer">
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={imgNewBeer} />
+          <Card.Img variant="top" src={imgNewBeer} className="img-opt-home"/>
           <Card.Body>
-            <Card.Title>New Beer</Card.Title>
-            <Card.Text>
+            <Card.Title className="tit-card-home">New Beer</Card.Title>
+            <Card.Text className="text-card-home">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>

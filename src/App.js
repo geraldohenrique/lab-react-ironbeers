@@ -28,7 +28,7 @@ function App() {
     
     <div className="App">
       <div>
-        <Link to="/"><img src={homeBar} alt=""/> </Link>
+        <Link to="/"><img src={homeBar} alt="" className='img-home'/> </Link>
       </div>
        
       <Routes>
