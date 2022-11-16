@@ -15,16 +15,16 @@ export default function RandomBeer() {
 
 
   return (
-    <div class="card">
-      <img class="card-img-top" src={beer.image_url} alt="" />
-      <div class="card-body">
-        <h5 class="card-title">{beer.name}</h5>
-        <p class="card-text">
-          {beer.tagline}
-          {beer.first_brewed}
-          {beer.attenuation_level}
-          {beer.description}
-          {beer.contributed_by}
+    <div className="card-details">
+      <img className="img-card-details" src={beer.image_url} alt="" />
+      <div className="card-details-body">
+        <h5 className="card-details-title">{beer.name}</h5>
+        <p className="card-details-text">
+            {beer.tagline}
+            {beer.first_brewed}
+            {beer.attenuation_level}
+            {beer.description}
+            {beer.contributed_by}
         </p>
       </div>
     </div>

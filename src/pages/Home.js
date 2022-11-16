@@ -8,9 +8,9 @@ function Home(){
   return(
     <div>
       <Link to="/beers">
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '100vw' }}>
           <Card.Img variant="top" src={imgBeers} className="img-opt-home"/>
-          <Card.Body>
+          <Card.Body className="card-body">
             <Card.Title className="tit-card-home">All Beers</Card.Title>
             <Card.Text className="text-card-home">
               Some quick example text to build on the card title and make up the
@@ -20,7 +20,7 @@ function Home(){
         </Card>
       </Link>
       <Link to="/random-beer">
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '100vw' }}>
           <Card.Img variant="top" src={imgRandomBeer} className="img-opt-home"/>
           <Card.Body>
             <Card.Title className="tit-card-home">Random Beer</Card.Title>
@@ -32,7 +32,7 @@ function Home(){
         </Card>
       </Link>
       <Link to="/new-beer">
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '100vw' }}>
           <Card.Img variant="top" src={imgNewBeer} className="img-opt-home"/>
           <Card.Body>
             <Card.Title className="tit-card-home">New Beer</Card.Title>

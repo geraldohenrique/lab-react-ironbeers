@@ -11,17 +11,17 @@ export default function BeerDetails({beerList}) {
 
   return (
     <div className="card-details">
-      <img class="img-card-details" src={foundBeer.image_url} alt="" />
-      <div class="card-details-body">
-        <h5 class="card-details-title">{foundBeer.name}</h5>
-        <p class="card-details-text">
+      <img className="img-card-details" src={foundBeer.image_url} alt="" />
+      <div className="card-details-body">
+        <h5 className="card-details-title">{foundBeer.name}</h5>
+        <p className="card-details-text">
             {foundBeer.tagline}
             {foundBeer.first_brewed}
             {foundBeer.attenuation_level}
             {foundBeer.description}
             {foundBeer.contributed_by}
         </p>
-    </div>
+      </div>
     </div>
   );
 }
